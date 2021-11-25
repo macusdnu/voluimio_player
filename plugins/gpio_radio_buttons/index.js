@@ -5,7 +5,7 @@ var fs = require('fs-extra');
 var Gpio = require('onoff').Gpio;
 var io = require('socket.io-client');
 var socket = io.connect('http://localhost:3000');
-var buttonCount = 5;
+var buttonCount = 9;
 
 module.exports = gpioRadioButtons;
 
