@@ -1,4 +1,12 @@
-This repository is intended to host related code to Volumio Audiophile Player modified for my project \
+This repository it keeps related code to Volumio2 Audiophile Player project that i am working on 
 Plugins:
-   -gpio_radio_buttons
+   - autostart
+   - backup_restore
+   - gpio-buttons
+   - gpio_radio_buttons
+   - mpd_oled
+   - podcast
+   - spotify
+   - volsmartpower
+   - volspotconnect2
  
