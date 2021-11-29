@@ -1,5 +1,5 @@
-This repository it keeps related code to Volumio2 Audiophile Player project that i am working on \
-Plugins:
+This repository it keeps Volumio2 Audiophile Player project that i am working on \
+Used plugins:
    - autostart
    - backup_restore
    - gpio-buttons
@@ -11,3 +11,5 @@ Plugins:
    - volsmartpower
    - volspotconnect2
  
+Many thanks to all developers that made this project possible \
+All rights for the plugins code are to the original owners \
