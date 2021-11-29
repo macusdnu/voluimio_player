@@ -5,6 +5,7 @@ Plugins:
    - gpio-buttons
    - gpio_radio_buttons
    - mpd_oled
+   - NR1-UI ## replace mpd_oled
    - podcast
    - spotify
    - volsmartpower
