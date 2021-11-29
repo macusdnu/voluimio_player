@@ -3,7 +3,7 @@ Used plugins:
    - autostart
    - backup_restore
    - gpio-buttons
-   - gpio_radio_buttons
+   - gpio_radio_buttons ## modified to use 9 keys for radio playlists
    - mpd_oled
    - NR1-UI ## replace mpd_oled
    - podcast
