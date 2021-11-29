@@ -12,4 +12,4 @@ Used plugins:
    - volspotconnect2
  
 Many thanks to all developers that made this project possible \
-All rights for the plugins code are to the original owners \
+All rights for the plugins code are to the original owners 
