@@ -1,7 +1,8 @@
 #!/bin/bash
-
+sudo apt update && sudo apt install -y build-essential
 echo "Installing gpio radio buttons Dependencies"
 sudo apt-get update
+
 # Install the required packages via apt-get
 sudo apt-get -y install
 
