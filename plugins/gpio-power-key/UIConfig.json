@@ -1,0 +1,51 @@
+{
+  "page": {
+    "label": "GPIOPower"
+  },
+  "sections": [
+    {
+      "id": "gpio_setup",
+      "element": "section",
+      "label": "Setup your GPIO button actions",
+      "icon": "fa-plug",
+      "onSave": {"type":"controller", "endpoint":"system_controller/gpio-power-key", "method":"saveConfig"},
+      "saveButton": {
+        "label": "Save",
+        "data": [
+          "shutdownEnabled",
+          "shutdownPin"
+        ]
+      },
+      "content": [
+        {
+          "id": "shutdownEnabled",
+          "element": "switch",
+          "label": "Enable Shutdown",
+          "value": false
+        },
+        {
+          "id": "shutdownPin",
+          "element": "select",
+          "label": "GPIO Pin",
+          "value": {"value": 0,
+                    "label": "0"
+          },
+        "options": [
+            {
+              "value": 4,
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label": "5"
+            }
+          ],
+          "visibleIf": {
+            "field": "shutdownEnabled",
+            "value": true
+          }
+        }
+      ]
+    }
+ ]
+}
