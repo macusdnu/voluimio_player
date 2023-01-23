@@ -5,7 +5,6 @@ Used plugins:
    - gpio-power-key
    - gpio_radio_buttons ## modified to use 9 keys for radio playlists and updated for volumio3
    - mpd_oled
-   - NR1-UI ## replace mpd_oled
    - podcast
    - spotify
  
